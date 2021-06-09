@@ -1,0 +1,20 @@
+import moment from 'moment';
+export default {
+    nationality: 'UK',
+    dob: moment().subtract('years',25).format('DD/MM/YYYY'),
+    idNumber: '67542313455',
+    expiryDateID: moment().add('years',2).format('DD/MM/YYYY'),
+    expiryDateLicense: moment().add('years',1).format('DD/MM/YYYY'),
+    expiryDateVehicleReg: moment().add('years',1).format('DD/MM/YYYY'),
+    expiryDateVehicleAuth: moment().add('years',1).format('DD/MM/YYYY'),
+    expiryDateMedical: moment().add('years',1).format('DD/MM/YYYY'),
+    expiryDateVehicleIns: moment().add('years',1).format('DD/MM/YYYY'),
+    idImage: "https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    personalImage: "https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    vehicleRegis: "https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    vehicleAuth: "https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    licenseImage: "https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    vehicleInsurance: "https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    medical: "https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    medical: "https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+  };

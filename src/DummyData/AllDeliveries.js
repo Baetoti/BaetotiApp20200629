@@ -1,0 +1,36 @@
+export default approvedOrders = [
+    {
+        key: 1,
+        OrderId: 'ORD260RT5640',
+        DeliveryTime: '08:00 AM, Mar 23,2020,',
+        ProviderAddress: 'C-40, Golden Street, East 6th Street, New York,USA',
+        BuyerAddress: 'C-40, Golden Street, East 6th Street, New York,USA',
+        DeliveryCharges: 25,
+        ServiceFees: 5,
+        orderDate: '23 Mar, 2020',
+        distance: '600',
+        providerName: 'Robin Jeans',
+        providerImage: require('../assets/DriverHome/Layer30.png'),
+        clientName: 'Mike Wheeler',
+        clientImage: require('../assets/DriverHome/Layer531.png'),
+        totalPackage: 1,
+        amountStatus: 'Paid'
+    },
+    {
+        key: 2,
+        OrderId: 'ORD260RT5640',
+        DeliveryTime: '08:00 AM, Mar 23,2020,',
+        ProviderAddress: 'C-40, Golden Street, East 6th Street, New York,USA',
+        BuyerAddress: 'C-40, Golden Street, East 6th Street, New York,USA',
+        DeliveryCharges: 25,
+        ServiceFees: 5,
+        orderDate: '23 Mar, 2020',
+        distance: '600',
+        providerName: 'Robin Jeans',
+        providerImage: require('../assets/DriverHome/Layer30.png'),
+        clientName: 'Mike Wheeler',
+        clientImage: require('../assets/DriverHome/Layer531.png'),
+        totalPackage: 1,
+        amountStatus: 'NonPaid'
+    },
+]
